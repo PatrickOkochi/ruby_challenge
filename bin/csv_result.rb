@@ -1,14 +1,15 @@
 class CsvResult
 
-  def initialize(r,h,colums)
+  def initialize(r,h)
+
     @r = r
     @h = h
-    @amt_col = colums["amt_col"]
-    @ban_col = colums["ban_col"]
-    @bac_col = colums["bac_col"]
-    @e2e_col = colums["e2e_col"]
-    @ban_name =colums["ban_name"]
-    @ban_code =colums["ban_code"]
+    @amt_col = 8
+    @ban_col = 6
+    @bac_col = 2
+    @e2e_col = 10
+    @ban_name = 7
+    @ban_code = 0
   end
 
   def attributes
